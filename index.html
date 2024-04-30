@@ -12,9 +12,10 @@
 </head>
 
 <body>
-    <header class="banner">
-        <img id="header-img" src="img/logo-hamburguesa.png.png" alt="logo de hamburguesa" width="100" height="100">
-        <nav class="navbar navbar-expand-lg text-bg-light p-3" id="nav-bar">
+    <header class="banner" id="header">
+        
+        <nav class="navbar fixed-top navbar-expand-lg text-bg-light p-3" id="nav-bar">
+            <img id="header-img" src="img/logo-hamburguesa.png.png" alt="logo de hamburguesa" width="100" height="100">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Navbar</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -41,14 +42,6 @@
     <main>
         <section class="presentacion-marca">
             <h1 class="titulo-principal">Hamburguesas Traga-Traga</h1>
-            <ul>
-                <li class="iconos"><i class="far fa-eye" style="font-size: 2rem;">
-                        <p>Ingredientes frescos y de calidad</p>
-                    </i></li>
-                <li class="iconos"><i class="fas fa-hand-peace" style="font-size: 2rem;"></i></li>
-                <li class="iconos"><i class="fas fa-paint-brush" style="font-size: 2rem;"></i></li>
-
-            </ul>
             <ul id="diferenciadores">
                 <li class="iconos"><i class="fa-solid fa-burger" style="font-size: 2rem;"></i>Ingredientes frescos y de
                     calidad</li>
@@ -90,9 +83,12 @@
             </div>
         </section>
         <section class="contacto" id="contacto">
-            <form action="https://www.freecodecamp.com/email-submit">
-                <input type="email" name="email" id="email" placeholder="Ingresa tu correo:">
-                <input type="submit" id="submit" value="Suscríbete">
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email">
+                </div>
+                <input class="btn btn-primary" type="submit" id="submit" value="Suscríbete">
             </form>
         </section>
     </main>
