@@ -56,3 +56,8 @@ body{
     text-align: center;
 }
 
+.producto1{
+    padding: 2rem;
+    border: 1px solid #bf0c1a;
+    border-radius: 25%;
+}
