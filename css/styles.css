@@ -5,40 +5,13 @@
     padding: 0; 
 }
 
-#nav-bar{
-    background-color: white;
-}
-
 .banner{
     display: flex;
     flex-direction: row;
     width: 90%;
-}
-
-.links{
-    display: flex;
-    padding: 2rem;
-    list-style: none;
-    
-}
-
-.links a{
-    color: #4fa629;
-}
-
-.links a:visited{
-    color: #4fa629;
-}
-
-.links a:hover{
-    font-size: 1.5rem;
-    color: #f9a900;
-    transition: 0.5s;
-}
-
-.nav-link{
-    padding: 2rem;
-    text-decoration: none;
+    padding: 10px;
+    position: absolute;
+    top: 0;
 }
 
 .titulo-principal{
@@ -46,6 +19,7 @@
     text-align: center;
     color: #bf0c1a;
     text-shadow: #f00106;
+    margin-top: 120px;
 }
 
 .presentacion-marca{
