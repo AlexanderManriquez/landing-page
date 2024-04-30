@@ -8,10 +8,7 @@
 .banner{
     display: flex;
     flex-direction: row;
-    width: 90%;
-    padding: 10px;
-    position: absolute;
-    top: 0;
+    height: auto;
 }
 
 .titulo-principal{
@@ -19,7 +16,7 @@
     text-align: center;
     color: #bf0c1a;
     text-shadow: #f00106;
-    margin-top: 120px;
+    margin-top: 150px;
 }
 
 .presentacion-marca{
