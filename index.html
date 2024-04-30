@@ -7,30 +7,43 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Hamburguesas Traga-Traga</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
-    <header class="banner">
-        <img id="header-img" src="img/logo-hamburguesa.png.png" alt="" width="100" height="100">
-        <nav id="nav-bar">
-            <ul class="links">
-                <li><a href="#diferenciadores" class="nav-link">Lo que nos diferencia</a></li>
-                <li><a href="#productos" class="nav-link">Lo que vendemos</a></li>
-                <li><a href="#contacto" class="nav-link">Contáctanos</a></li>
-            </ul>
+    <header class="banner" id="header">  
+        <nav class="navbar fixed-top navbar-expand-lg text-bg-light p-3" id="nav-bar">
+            <img id="header-img" src="img/logo-hamburguesa.png.png" alt="logo de hamburguesa" width="50" height="50">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Traga-Traga Hamburguesería</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#diferenciadores">Lo que nos
+                                diferencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#productos">Lo que vendemos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contáctanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
         <section class="presentacion-marca">
             <h1 class="titulo-principal">Hamburguesas Traga-Traga</h1>
-            <ul>
-                <li class="iconos"><i class="far fa-eye" style="font-size: 2rem;"><p>Ingredientes frescos y de calidad</p></i></li>
-                <li class="iconos"><i class="fas fa-hand-peace" style="font-size: 2rem;"></i></li>
-                <li class="iconos"><i class="fas fa-paint-brush" style="font-size: 2rem;"></i></li>
-                
-            </ul>
             <ul id="diferenciadores">
-                <li class="iconos"><i class="fa-solid fa-burger" style="font-size: 2rem;" ></i>Ingredientes frescos y de calidad</li>
+                <li class="iconos">Ingredientes frescos y de
+                    calidad</li>
                 <li class="iconos">Excelencia y abundancia en cada bocado</li>
                 <li class="iconos">Recien hechas con amor</li>
             </ul>
@@ -41,16 +54,40 @@
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
         <section class="productos" id="productos">
-            <div class="producto1">
-                <img src="" alt="">
-                <p>Hamburguesa con Papas</p></div>
-            <div class="producto1">Hamburguesa con Aros de cebolla</div>
-            <div class="producto1">Hamburguesa con Dedos de queso</div>
+            <div class="card" style="width: 20rem;">
+                <img src="img/hamburguesa-y-papas.png" class="card-img-top" alt="Hamburguesa con papas fritas">
+                <div class="card-body">
+                    <p class="card-text">El clásico</p>
+                    <p class="card-text">$6.300</p>
+                </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+                <img src="img/hamburguesa-con-aros.png" class="card-img-top" alt="hamburguesa con aros de cebolla">
+                <div class="card-body">
+                    <p class="card-text">Estilo gringo</p>
+                    <p class="card-text">$6.500</p>
+                </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+                <img src="img/2-hamburguesas.png" class="card-img-top" alt="Dos hamburguesas">
+                <div class="card-body">
+                    <p class="card-text">Veo Doble</p>
+                    <p class="card-text">$8.000</p>
+                </div>
+            </div>
+        </section>
+        <section class="carta">
+            <div class="d-grid gap-2 col-4 mx-auto">
+                <button class="btn btn-primary" type="button">Revisa la carta completa</button>
+            </div>
         </section>
         <section class="contacto" id="contacto">
-            <form action="https://www.freecodecamp.com/email-submit">
-                <input type="email" name="email" id="email" placeholder="Ingresa tu correo:">
-                <input type="submit" id="submit" value="Suscríbete">
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email">
+                </div>
+                <input class="btn btn-primary" type="submit" id="submit" value="Suscríbete">
             </form>
         </section>
     </main>

@@ -2,46 +2,13 @@
 
 *{
     margin: 0;
-    padding: 0;
-    
-}
-
-body{
-    background-color:black;
-    color: #4fa629;
-    font-size: 1.2rem;
+    padding: 0; 
 }
 
 .banner{
     display: flex;
     flex-direction: row;
-    width: 90%;
-}
-
-.links{
-    display: flex;
-    padding: 2rem;
-    list-style: none;
-    
-}
-
-.links a{
-    color: #4fa629;
-}
-
-.links a:visited{
-    color: #4fa629;
-}
-
-.links a:hover{
-    font-size: 1.5rem;
-    color: #f9a900;
-    transition: 0.5s;
-}
-
-.nav-link{
-    padding: 2rem;
-    text-decoration: none;
+    height: auto;
 }
 
 .titulo-principal{
@@ -49,6 +16,7 @@ body{
     text-align: center;
     color: #bf0c1a;
     text-shadow: #f00106;
+    margin-top: 150px;
 }
 
 .presentacion-marca{
@@ -59,6 +27,7 @@ body{
 .productos{
     display: flex;
     justify-content: space-around;
+    margin-top: 3rem;
 }
 
 .producto1{
@@ -66,4 +35,8 @@ body{
     padding: 2rem;
     border: 1px solid #bf0c1a;
     border-radius: 15px;
+}
+
+.carta{
+    margin-top: 3rem;
 }
