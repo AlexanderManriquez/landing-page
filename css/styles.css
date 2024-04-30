@@ -56,8 +56,14 @@ body{
     text-align: center;
 }
 
+.productos{
+    display: flex;
+    justify-content: space-around;
+}
+
 .producto1{
+    width: 20%;
     padding: 2rem;
     border: 1px solid #bf0c1a;
-    border-radius: 25%;
+    border-radius: 15px;
 }
