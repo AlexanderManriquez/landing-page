@@ -30,6 +30,7 @@
 .productos{
     display: flex;
     justify-content: space-around;
+    margin-top: 3rem;
 }
 
 .producto1{
@@ -37,4 +38,8 @@
     padding: 2rem;
     border: 1px solid #bf0c1a;
     border-radius: 15px;
+}
+
+.carta{
+    margin-top: 3rem;
 }
