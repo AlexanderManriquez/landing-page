@@ -1,4 +1,4 @@
-# Protecto Landing Page
+# Proyecto Landing Page
 
 Este proyecto está enmarcado dentro de la certificación de <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>: "Diseño Web Responsivo"
 
