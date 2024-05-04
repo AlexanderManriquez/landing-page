@@ -38,15 +38,8 @@
 }
 
 .carta{
-    margin-top: 3rem;
-}
-
-.separador{
-    height: 8px;
-    text-align: center;
-    width: 75%;
-    background-color: gray;
-    margin: 3rem auto;
+    padding: 3rem;
+    background: linear-gradient(gray 5%, LightGray 100%);
 }
 
 .contacto{
@@ -54,11 +47,26 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 1rem 0;
+    padding: 5rem 0;
+    background: linear-gradient(LightGray 30%, Gainsboro 60%, #F4F6F6 100%)
 }
+
 .footer{
     text-align: center;
     color: gray;
-    background-color: Gainsboro;
-    margin-bottom: 0;
+    background: linear-gradient(#F4F6F6 10%, white);
+}
+
+@media screen and (max-width: 1090px) {
+    .productos{
+        display: flex;
+        flex-direction: column;
+        background-color: gray;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #video{
+        width: 80%;
+    }
 }
