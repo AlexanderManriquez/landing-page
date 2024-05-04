@@ -1,15 +1,18 @@
-*{
+* {
     margin: 0;
-    padding: 0; 
+    padding: 0;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.banner{
+.banner {
     display: flex;
     flex-direction: row;
     height: auto;
 }
 
-.titulo-principal{
+.titulo-principal {
     font-size: 3rem;
     text-align: center;
     color: #bf0c1a;
@@ -17,32 +20,36 @@
     padding-top: 150px;
 }
 
-#diferenciadores{
+#diferenciadores {
     padding: 10px;
 }
 
-.presentacion-marca{
+.presentacion-marca {
     text-align: center;
-    background: linear-gradient(#F4F6F6 50%, Gainsboro 65%, LightGray 80%, gray 100% );
+    background: linear-gradient(#F4F6F6 50%, Gainsboro 65%, LightGray 80%, gray 100%);
 }
 
-.productos{
+.iconos {
+    font-size: 1.5rem;
+}
+
+.productos {
     display: flex;
     justify-content: space-around;
     background-color: gray;
     padding: 3rem;
 }
 
-.card-body{
+.card-body {
     text-align: center;
 }
 
-.carta{
+.carta {
     padding: 3rem;
     background: linear-gradient(gray 5%, LightGray 100%);
 }
 
-.contacto{
+.contacto {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,22 +58,22 @@
     background: linear-gradient(LightGray 30%, Gainsboro 60%, #F4F6F6 100%)
 }
 
-.footer{
+.footer {
     text-align: center;
     color: gray;
     background: linear-gradient(#F4F6F6 10%, white);
 }
 
 @media screen and (max-width: 1090px) {
-    .productos{
+    .productos {
         display: flex;
         flex-direction: column;
         background-color: gray;
     }
 }
 
-@media screen and (max-width: 600px){
-    #video{
+@media screen and (max-width: 600px) {
+    #video {
         width: 80%;
     }
 }
